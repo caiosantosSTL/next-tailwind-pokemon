@@ -1,5 +1,6 @@
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
+import Script from 'next/script'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -10,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
       <Footer />
-      <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
+      <Script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"/>
 
     </>
   )
