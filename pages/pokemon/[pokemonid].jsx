@@ -37,7 +37,7 @@ export const getStaticProps = async (context) => {
 export default function PokemonID({ pokemon }) {
     return (
         <>
-            <div className="h-screen ">
+            <div className="h-screen content-center">
                 <div className="flex flex-cols space-y-2 justify-center">
                     <div className="max-w-sm bg-white text-white rounded-lg shadow-md dark:bg-gray-700">
                     <h1 className="flex justify-center">{pokemon.name}</h1>
