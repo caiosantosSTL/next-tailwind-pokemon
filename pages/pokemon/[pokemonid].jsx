@@ -39,7 +39,7 @@ export default function PokemonID({ pokemon }) {
         <>
             <div className="h-screen content-center">
                 <div className="flex flex-cols space-y-2 justify-center">
-                    <div className="max-w-sm bg-white text-white rounded-lg shadow-md dark:bg-gray-700">
+                    <div className="max-w-sm mt-4 bg-gray-400 text-white rounded-lg shadow-md dark:bg-gray-700">
                     <h1 className="flex justify-center">{pokemon.name}</h1>
                     <Image src={`https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`} width="200" height="200" alt={pokemon.name} />
                     </div>
